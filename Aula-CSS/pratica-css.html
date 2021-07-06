@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+
+    <style>
+        div{
+            border: 1px solid black;
+            width: 200px;
+        }
+
+        img{
+            width: 200px;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .description{
+            text-align: center;
+            margin: 10px 2px;
+            font-size: 15px;
+        }
+        .product-name{
+            text-align: center;
+        }
+        .button{
+            margin: 10px 0px;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: white;
+            border: 1px solid black;
+        }
+        .price{
+            font-weight: 600;
+        }
+        .button:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3 class="product-name">Caixa de vinho misteriosa</h3>
+        <img src="https://www.vinhobr.com.br/produtos/Mistery-Wine-Box-Vinhobr.com.br.png" alt="wine-box">
+        <p class="description">Caixa de vinho misteriosa (contém 6 garrafas)</p>
+        <span class="price">Preço: R$XXXX,XX</span>
+        <button class="button">Adicionar ao carrinho</button>
+    </div>
+    
+</body>
+</html>
