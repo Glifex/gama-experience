@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid black;  
+
+        }
+
+        .my-div1 {
+            color: #0000ff;
+            font-weight: 800;
+            background-color: rgb(145, 236, 145);
+            font-family: monospace;
+            font-size: 15px;
+        }
+
+        .my-div2 {
+            color: blueviolet;
+            font-weight: bold;
+            background-color: darkgrey;
+            font-family: fantasy;
+            font-size: xx-large;
+
+        }
+
+        .my-div3 {
+            color: rgb(255, 0, 0, 0.5);
+            font-weight: 100;
+            background-color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        .flex-div {
+            display: flex;
+            width: 500px;
+        }
+
+        .child-div1 {
+            border: 1px solid black;
+            flex-basis: 100px;
+            flex-grow: 2;
+        }
+        .child-div2 {
+            border: 1px solid black;
+            flex-basis: 300px;
+            flex-grow: 2;
+            flex-shrink: 2;
+        }
+        .child-div3 {
+            border: 1px solid black;
+            flex-basis: 300px;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-div">
+        <div class="child-div1">
+            1
+        </div>
+        <div class="child-div2">
+            2
+        </div>
+        <div class="child-div3">
+            3
+        </div>
+        
+    </div>
+    <div class="my-div1">
+        Olá, mundo 1!
+    </div>
+    <div class="my-div2">
+        Olá, mundo 2!
+    </div>
+    <div class="my-div3">
+        Olá, mundo 3!
+    </div>
+
+</body>
+
+</html>
