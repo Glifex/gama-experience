@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+    <header role="banner">
+        <nav role="navigation">
+            <ul role="menu" aria-level="main navigation">
+                <li>
+                    <a href="#" role="menuitem">Home</a>
+                </li>
+                <li>
+                    <a href="#" role="menuitem" role="menuitem">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="#" role="menuitem">Contato</a>
+                </li>
+                <li>
+                    <a href="#" role="menuitem">Conteúdos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <table summary="O número de trabalhadores e ano de Fundação de algumas empresas tecnológicas">
+
+            <caption>Tabela 1: Informações sobre as empresas</caption>
+            <thead>
+                <tr>
+                    <th abbr="Empresa" scope="col">Nome da empresa</th>
+                    <th abbr="Trabalhadores" scope="col">Número de trabalhadores</th>
+                    <th abbr="Fundação" scope="col">Data da Fundação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Apple, Inc.</th>
+                    <td>98000</td>
+                    <td>1976</td>
+                </tr>
+                <tr>
+                    <th scope="row">Google, Inc.</th>
+                    <td>55000</td>
+                    <td>1997</td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/647px-Apple_logo_grey.svg.png" alt="Logo da apple"
+            title="Apple" aria-labelledby="description-apple" />
+        <p id="description-apple">Apple Inc. é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar
+            produtos eletrônicos de consumo, software de computador e computadores pessoais.</p>
+        
+        <p id="article-description">Apple Inc. é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar
+            produtos eletrônicos de consumo, software de computador e computadores pessoais.</p>
+        <p id="texto1">Apple Inc. é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar
+                produtos eletrônicos de consumo, software de computador e computadores pessoais.</p>
+        <button id="botao1" onclick="atualizacao()">Atualização de texto</button>
+        <script type="text/javascript">
+            function atualizacao(){
+                var texto1 = document.getElementById("texto1");
+
+                texto1.innerText = "texto atualizado!";
+            }
+
+        
+        </script>
+        <script type="text/javascript">
+
+            var paragrafo = document.getElementById("article-description")
+            paragrafo.style.color = "blue";
+
+            paragrafo.innerText = "Texto mudou!";
+
+        </script>
+    </main>
+    <!-- Ínicido do Rodapé -->
+    <footer role="contentinfo">
+        &copy; 2020 Gama Academy
+    </footer>
+    <!-- Fim do Rodapé -->
+</body>
+
+</html>
