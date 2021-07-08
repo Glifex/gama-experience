@@ -90,4 +90,57 @@ function contaJantar(valor) {
     console.log("Taxa do garçom: " + taxaGarcom)
 }
 
-contaJantar(50.50)
+// Crie uma variavel e atribua como valor uma operacao de média entre 5 números inteiros e positivos
+
+// var media = (3 + 4 + 7 + 5 + 8) / 5
+// console.log(media)
+
+//Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. 
+//Além disso, se o resto dessa divisão for 
+//zero deverá imprimir no console o valor e dizer que ele é par.
+
+function par(a, b) {
+    if (a / b % 2 == 0) {
+        console.log("Par")
+    }
+}
+
+// a) números de 1 a 100  
+// b) quando chegar no número 50 interrompa a instrução e pare o loop 
+// c) quando chegar no número 50 pule a instrução |
+
+// for (let i = 1; i <= 100; i++) {
+//     if (i == 50) {
+//         console.log(i)
+//     } else {
+//         console.log(i)
+//     }
+// }
+
+// Vamos criar uma calculadora com as 4 operações matemáticas básicas? rs
+
+function soma(a, b) {
+    return console.log("Resultado da soma é: " + (a + b))
+}
+
+function divisao(a, b) {
+    return console.log("Resultado da soma é: " + (a / b))
+}
+
+function subtracao(a, b) {
+    return console.log("Resultado da soma é: " + (a - b))
+}
+
+function multiplicacao(a, b) {
+    return console.log("Resultado da soma é: " + (a * b))
+}
+
+// Solicite o preço de uma mercadoria e o percentual 
+//de desconto. Exiba no console o valor do desconto e o preço a pagar.
+
+function mercadoria(preco, desconto) {
+    desconto = (preco * desconto) / 100
+    console.log("Valor do desconto: " + desconto)
+    console.log("Valor do preço a pagar: " + (preco - desconto))
+}
+
